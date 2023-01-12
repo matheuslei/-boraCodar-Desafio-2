@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato&family=Roboto:wght@400;500;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d9cdf7;
+  display: flex;
+  font-family: Roboto, Lato, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30vh auto;
+}
+#imagem,
+#img1 {
+  display: flex;
+  width: 50vh;
+}
+
+.container .informacao h1 {
+  color: #271a45;
+  font-family: Crimson Pro;
+  font-weight: semibold;
+  margin: 12px 0 12px 0;
+}
+
+.container .informacao p {
+  fontsize: Lato;
+  font-size: 16px;
+  color: #625580;
+}
+.container .informacao button {
+  background: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+
+  transition: 0.3s;
+
+  cursor: pointer;
+}
+.container .informacao button:hover {
+  background: #9085ab;
+  transition: 0.3s;
+}
