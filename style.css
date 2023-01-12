@@ -23,6 +23,17 @@ body {
   display: flex;
   width: 50vh;
 }
+#x {
+  display: none;
+  position: absolute;
+  margin: 3px 10px 0 0;
+  padding: 0 0 13% 2%;
+  cursor: pointer;
+}
+
+.informacao {
+  margin-right: 25px;
+}
 
 .container .informacao h1 {
   color: #271a45;
